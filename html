@@ -54,7 +54,7 @@ svg.append("rect")
 
 var g = svg.append("g");
 
-d3.json("test2.json", function(error, Alberta) {
+d3.json("AlbertaLUFRegions.topojson", function(error, Alberta) {
   g.append("g")
       .attr("id", "Regions")
     .selectAll("path")
